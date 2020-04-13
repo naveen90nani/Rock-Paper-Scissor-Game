@@ -61,12 +61,12 @@ class Game
 		}
 	}
 }
-class RPSGame 
+class  MyGame
 {
 	public static void main(String arg[])
 	{
 		Game g=new Game();
-		for(int i=1;i<=2;i++)
+		for(int i=1;i<=50;i++)
 		{
 			String win1,win2;
 			System.out.println("Input \"rock\", \"paper\", or \"scissors:  ");
